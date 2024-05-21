@@ -1,0 +1,38 @@
+hero{
+    height: 750px;
+}
+
+.navbar-brand {
+  font-family: "Monsteratt", sans-serif;
+  font-weight: 700;
+
+  font-size: 24px;
+}
+
+.nav-link {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Hero{
+    margin-top: 100px;
+    min-height: 500px;
+    background-color: red;
+}
+.hero-intro-text{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color:grey;
+}
+.hero-name-text{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.img-fluid{
+    width: auto;
+    height: 300px;
+}
+
