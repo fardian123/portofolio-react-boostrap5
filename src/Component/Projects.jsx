@@ -1,37 +1,31 @@
 import React from 'react';
-import pj1 from "../assets/lp.jpg"
-
+import project1 from "../assets/project1matrixcalc.png"
+import project2 from "../assets/project2portofolio.png"
+import project3 from "../assets/projeck3bookshelfapp.png"
 
 function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lorem sit amet nisi ultricies fermentum.",
-      imageUrl: {pj1},
-      link: "#"
+      title: "Portofolio Website",
+      description: "A professional portfolio website showcasing projects I have completed and personal information, including social media profiles.",
+      imageUrl: project2,
+      link: "https://github.com/fardian123/portofolio-react-boostrap5"
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lorem sit amet nisi ultricies fermentum.",
-      imageUrl: "https://via.placeholder.com/150",
-      link: "#"
+      title: "Matrix Calculator Dekstop App",
+      description: "A desktop-based application capable of calculating a matrix with a specified order. created as a final project for the 'Discrete Mathematics' course.",
+      imageUrl: project1,
+      link: "https://github.com/fardian123/dekstop-app-matrix-calculator"
     },
     {
       id: 3,
-      title: "Project 3",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lorem sit amet nisi ultricies fermentum.",
-      imageUrl: "https://via.placeholder.com/150",
-      link: "#"
+      title: "Bookshelf App",
+      description: "A website designed for managing a collection of books utilizing local storage, created for submission in the Dicoding course 'Belajar Fundamental Front-End Web Development'.",
+      imageUrl: project3,
+      link: "https://github.com/fardian123/Projek_akhir_dicoding_BookshelfApp"
     },
-    {
-      id: 4,
-      title: "Project 3",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in lorem sit amet nisi ultricies fermentum.",
-      imageUrl: "https://via.placeholder.com/150",
-      link: "#"
-    }
   ];
 
   return (
@@ -41,8 +35,8 @@ function Portfolio() {
         <div className="row">
           {projects.map(project => (
             <div key={project.id} className="col-md-4 mb-4">
-              <div className="card">
-                <img src={pj1} className="card-img-top" alt={project.title} />
+              <div className="card min-height-card">
+                <img src={project.imageUrl} className="card-img-top" alt={project.title} />
                 <div className="card-body">
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{project.description}</p>

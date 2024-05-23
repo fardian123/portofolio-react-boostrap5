@@ -3,7 +3,7 @@ hero{
 }
 
 .navbar-brand {
-  font-family: "Monsteratt", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 700;
 
   font-size: 24px;
@@ -15,6 +15,7 @@ hero{
   font-size: 20px;
 }
 
+/* hero */
 .Hero{
     margin-top: 100px;
     min-height: 500px;
@@ -31,8 +32,36 @@ hero{
   font-weight: 700;
   font-size: 40px;
 }
-.img-fluid{
-    width: auto;
-    height: 300px;
+.lead{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: grey;
 }
 
+
+.heroImg{
+  width: 400px;
+}
+
+.cta-btn{
+  border-radius: 2rem;
+}
+.cta-btn:hover{
+ transform: scale(1);
+ background-color: white;
+ color: black;
+}
+
+
+/* project */
+.min-height-card{
+  min-height: 400px;
+}
+.btn{
+  margin-top: auto;
+}
+
+/* footer */
+.footer-social{
+  color: white;
+}
