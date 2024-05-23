@@ -3,8 +3,8 @@ import imgHero from "../assets/heroBanner.svg";
 
 const HeroSection = () => {
   return (
-    <section className="container hero">
-      <div className="row align-items-center py-5 mt-5">
+    <section className="container hero" id="aboutme">
+      <div className="row align-items-center py-5 mt-5 col-reverse">
         {/* Bagian Kiri - Teks */}
         <div className="col-md-6">
           <div className="">

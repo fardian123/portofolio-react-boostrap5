@@ -34,6 +34,16 @@
 
 .heroImg {
   width: 400px;
+  filter: drop-shadow(4px 4px 4px #9999);
+}
+@media (max-width: 500px) {
+  .col-reverse{
+    flex-direction: column-reverse !important;
+    margin-top: 0px !important;
+  }
+  .heroImg{
+    width: 300px;
+  }
 }
 
 .cta-btn {
