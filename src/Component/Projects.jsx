@@ -31,7 +31,7 @@ function Portfolio() {
   return (
     <section className="portfolio-section py-5 mt-5" id="portfolio">
       <div className="container">
-        <h2 className="text-center mb-4">My Projects</h2>
+        <h2 className="text-start mb-4 pj-main-title">My Projects</h2>
         <div className="row">
           {projects.map(project => (
             <div key={project.id} className="col-md-4 mb-4">

@@ -1,75 +1,77 @@
-
-
-.navbar-brand {
+* {
   font-family: "Quicksand", sans-serif;
+}
+.navbar-brand {
   font-weight: 700;
 
   font-size: 24px;
 }
 
 .nav-link {
-  font-family: "Quicksand", sans-serif;
   font-weight: 700;
   font-size: 20px;
 }
 
 /* hero */
-.Hero{
-    margin-top: 100px;
-    min-height: 500px;
-    background-color: red;
+.Hero {
+  margin-top: 100px;
+  min-height: 500px;
+  background-color: red;
 }
-.hero-intro-text{
-    font-family: "Quicksand", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color:grey;
+.hero-intro-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: grey;
 }
-.hero-name-text{
-  font-family: "Quicksand", sans-serif;
+.hero-name-text {
   font-weight: 700;
   font-size: 40px;
 }
-.lead{
-  font-family: "Quicksand", sans-serif;
+.lead {
   font-weight: 600;
   color: grey;
 }
 
-
-.heroImg{
+.heroImg {
   width: 400px;
 }
 
-.cta-btn{
+.cta-btn {
   border-radius: 2rem;
 }
-.cta-btn:hover{
- transform: scale(1);
- background-color: white;
- color: black;
+.cta-btn:hover {
+  transform: scale(1);
+  background-color: white;
+  color: black;
 }
-
 
 /* project */
-.min-height-card{
+.min-height-card {
   min-height: 400px;
 }
-.pj-btn{
+.pj-btn {
   margin-top: auto;
   border-radius: 10px;
   background-color: black;
-  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   color: whitesmoke;
   border: solid 1px black;
 }
-.pj-btn:hover{
+.pj-btn:hover {
   color: black;
   background-color: whitesmoke;
 }
-
+.card-title {
+  font-weight: 600;
+}
+.card-text {
+  font-weight: 600;
+  color: grey;
+}
+.pj-main-title {
+  font-weight: 600;
+}
 /* footer */
-.footer-social{
+.footer-social {
   color: white;
 }
