@@ -1,6 +1,4 @@
-hero{
-    height: 750px;
-}
+
 
 .navbar-brand {
   font-family: "Quicksand", sans-serif;
@@ -57,8 +55,18 @@ hero{
 .min-height-card{
   min-height: 400px;
 }
-.btn{
+.pj-btn{
   margin-top: auto;
+  border-radius: 10px;
+  background-color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: whitesmoke;
+  border: solid 1px black;
+}
+.pj-btn:hover{
+  color: black;
+  background-color: whitesmoke;
 }
 
 /* footer */
