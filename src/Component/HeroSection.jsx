@@ -6,10 +6,13 @@ import Typed from "typed.js";
 const HeroSection = () => {
   const el = React.useRef(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Fardian Zahri Chaniago."],
       typeSpeed: 77,
+      startDelay:500,
+      backDelay:1000,
+      backSpeed:50,
       loop: true,
     });
     return () => {
