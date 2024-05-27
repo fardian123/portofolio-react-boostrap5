@@ -3,41 +3,15 @@ import imgHero from "../assets/heroBanner.svg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Typed from "typed.js";
 
 const HeroSection = () => {
-  const el = React.useRef(null);
-  const typed = React.useRef(null);
+  
 
   useEffect(() => {
-    console.log("useEffect is running"); // Debug log
-    console.log("el.current:", el.current); // Debug log
-
-    if (el.current) {
-      const options = {
-        strings: ["Fardian Zahri Chaniago"],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true,
-      };
-
-      typed.current = new Typed(el.current, options);
-      console.log("Typed.js initialized"); // Debug log
-    } else {
-      console.log("el.current is null"); // Debug log
-    }
-
     // Initialize AOS
     AOS.init({
       duration: 1000,
     });
-
-    return () => {
-      if (typed.current) {
-        typed.current.destroy();
-        console.log("Typed.js destroyed"); // Debug log
-      }
-    };
   }, []);
 
   return (
@@ -47,9 +21,7 @@ const HeroSection = () => {
         <div className="col-md-6">
           <div className="">
             <p className="hero-intro-text mb-0">Hello i'm</p>
-            <h1 className="display-4 hero-name-text">
-              <span ref={el}>Fardian Zahri Chaniago</span>
-            </h1>
+            <h1 className="display-4 hero-name-text">Fardian Zahri Chaniago</h1>
             <p className="lead">
               I am a passionate web developer with experience in React, Laravel,
               Bootstrap, and TailwindCSS.
