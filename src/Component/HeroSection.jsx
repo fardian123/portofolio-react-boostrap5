@@ -6,20 +6,16 @@ import { useEffect } from "react";
 import Typed from "typed.js";
 
 const HeroSection = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
-
-  // typed js config
   const el = React.useRef(null);
 
   React.useEffect(() => {
+    Aos.init();
+
     const typed = new Typed(el.current, {
       strings: ["Fardian Zahri Chaniago."],
       typeSpeed: 77,
-      loop:true,
+      loop: true,
     });
-
     return () => {
       typed.destroy();
     };
