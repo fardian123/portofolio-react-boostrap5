@@ -56,8 +56,11 @@
 }
 
 /* project */
+.card{
+  height: 410px;
+}
 .min-height-card {
-  min-height: 400px;
+  min-height: 410px;
 }
 .pj-btn {
   margin-top: auto;
@@ -81,7 +84,27 @@
 .pj-main-title {
   font-weight: 600;
 }
+
+
+/* education */
+
+
+ .line {
+  padding: 0 0.7rem;
+}
+
+.line div {
+  width: 2px;
+  height: 100%;
+  background: #dedfe4;
+  position: relative;
+}
+
 /* footer */
 .footer-social {
   color: white;
 }
+
+
+
+

@@ -3,6 +3,7 @@ import Header from "./Component/Header";
 import HeroSection from "./Component/HeroSection";
 import Projects from "./Component/Projects";
 import Footer from "./Component/Footer";
+import Education from "./Component/Education";
 
 
 function App() {
@@ -11,9 +12,9 @@ function App() {
       <Header></Header>
       <HeroSection></HeroSection>
       <Projects></Projects>
+      <Education></Education>
+
       <Footer></Footer>
-      
-      
     </>
   );
 }

@@ -3,10 +3,7 @@ import project1 from "../assets/project1matrixcalc.png";
 import project2 from "../assets/project2portofolio.png";
 import project3 from "../assets/projeck3bookshelfapp.png";
 
-
 function Portfolio() {
-  
-
   const projects = [
     {
       id: 1,
