@@ -2,16 +2,10 @@ import React from "react";
 import project1 from "../assets/project1matrixcalc.png";
 import project2 from "../assets/project2portofolio.png";
 import project3 from "../assets/projeck3bookshelfapp.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 
 function Portfolio() {
-  // Inisialisasi AOS
-
-  useEffect(() => {
-    Aos.init({});
-  });
+  
 
   const projects = [
     {

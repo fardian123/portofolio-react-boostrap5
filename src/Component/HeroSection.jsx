@@ -1,24 +1,15 @@
 import React from "react";
 import imgHero from "../assets/heroBanner.svg";
 import { useEffect } from "react";
-import Typed from "typed.js";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const HeroSection = () => {
-  const el = React.useRef(null);
+  // Inisialisasi AOS
 
   useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ["Fardian Zahri Chaniago."],
-      typeSpeed: 77,
-      startDelay:500,
-      backDelay:1000,
-      backSpeed:50,
-      loop: true,
-    });
-    return () => {
-      typed.destroy();
-    };
-  }, []);
+    Aos.init({});
+  });
 
   return (
     <section className="container hero" id="aboutme">
@@ -27,9 +18,7 @@ const HeroSection = () => {
         <div className="col-md-6">
           <div className="">
             <p className="hero-intro-text mb-0">Hello i'm</p>
-            <h1 className="display-4 hero-name-text">
-              <span ref={el}>Fardian Zahri Chaniago </span>{" "}
-            </h1>
+            <h1 className="display-4 hero-name-text">Fardian Zahri Chaniago</h1>
             <p className="lead">
               I am a passionate web developer with experience in React, Laravel,
               Bootstrap, and TailwindCSS.
