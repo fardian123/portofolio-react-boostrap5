@@ -17,6 +17,7 @@ const HeroSection = () => {
     const typed = new Typed(el.current, {
       strings: ["Fardian Zahri Chaniago."],
       typeSpeed: 77,
+      loop:true,
     });
 
     return () => {
