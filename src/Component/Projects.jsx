@@ -24,7 +24,7 @@ function Portfolio() {
         "A desktop-based application capable of calculating a matrix with a specified order. created as a final project for the 'Discrete Mathematics' course.",
       imageUrl: project1,
       link: "https://github.com/fardian123/dekstop-app-matrix-calculator",
-      animation: "fade-down",
+      animation: "fade-right",
     },
     {
       id: 3,

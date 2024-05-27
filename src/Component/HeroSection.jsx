@@ -29,8 +29,13 @@ const HeroSection = () => {
           </div>
         </div>
         {/* Bagian Kanan - Gambar */}
-        <div className="col-md-6 d-flex justify-content-center">
-          <img src={imgHero} width={300} alt="HeroImage" className="heroImg" />
+        <div
+          className="col-md-6 d-flex justify-content-center"
+          
+        >
+          <img src={imgHero} width={300} alt="HeroImage" className="heroImg" data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-sine" />
         </div>
       </div>
     </section>
