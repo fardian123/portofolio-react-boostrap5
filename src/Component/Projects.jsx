@@ -2,6 +2,7 @@ import React from "react";
 import project1 from "../assets/project1matrixcalc.png";
 import project2 from "../assets/project2portofolio.png";
 import project3 from "../assets/projeck3bookshelfapp.png";
+import project4 from "../assets/project4isclandingpage.png"
 
 function Portfolio() {
   const projects = [
@@ -11,7 +12,7 @@ function Portfolio() {
       description:
         "A professional portfolio website showcasing projects I have completed and personal information, including social media profiles.",
       imageUrl: project2,
-      link: "https://github.com/fardian123/portofolio-react-boostrap5",
+      link: "https://fardian-zahri.vercel.app/",
       animation: "fade-right",
     },
     {
@@ -27,10 +28,19 @@ function Portfolio() {
       id: 3,
       title: "Bookshelf App",
       description:
-        "A website designed for managing a collection of books utilizing local storage, created for submission in the Dicoding course 'Belajar Fundamental Front-End Web Development'.",
+        "A website designed for managing a collection of books utilizing local web storage, created for submission in the Dicoding course 'Belajar Fundamental Front-End Web Development'.",
       imageUrl: project3,
-      link: "https://github.com/fardian123/Projek_akhir_dicoding_BookshelfApp",
+      link: "https://projek-akhir-dicoding-bookshelf-app.vercel.app/",
       animation: "fade-left",
+    },
+    {
+      id: 4,
+      title: "Expedition Company Profile",
+      description:
+        "A company profile website with an expedition theme, created by five individuals using Bootstrap, which was used for submission to the Informatic Study Club at Universitas Pamulang.",
+      imageUrl: project4,
+      link: "https://11express.netlify.app/",
+      animation: "fade-right",
     },
   ];
 
