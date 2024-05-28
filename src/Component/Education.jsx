@@ -18,9 +18,12 @@ const Education = () => {
       <h1>Skills & Education</h1>
 
       <div className="row d-flex flex-wrap flex-column flex-md-row justify-content-between gap-3">
-        <div className="col-12 col-md-5 " data-aos="fade-right"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-sine">
+        <div
+          className="col-12 col-md-5 "
+          data-aos="fade-right"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-sine"
+        >
           <div className="card mt-2">
             <div className="card-header">
               <h3 className="pre-title">Learning Path</h3>
@@ -49,12 +52,15 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-5" data-aos="fade-left"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-sine">
+        <div
+          className="col-12 col-md-5"
+          data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-sine"
+        >
           <div className="card d-flex gap-1">
             <div className="card-header">
-              <h3> Hard Skills</h3>
+              <h3> Skills</h3>
             </div>
             <div className="card-body d-flex">
               <div>
