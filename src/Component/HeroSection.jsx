@@ -3,10 +3,9 @@ import imgHero from "../assets/heroBanner.svg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Typewriter from "typewriter-effect";
 
 const HeroSection = () => {
-  
-
   useEffect(() => {
     // Initialize AOS
     AOS.init({
@@ -21,10 +20,18 @@ const HeroSection = () => {
         <div className="col-md-6">
           <div className="">
             <p className="hero-intro-text mb-0">Hello i'm</p>
-            <h1 className="display-4 hero-name-text">Fardian Zahri Chaniago</h1>
-            <p className="lead">
-              I am a passionate web developer with experience in React, Laravel,
-              Bootstrap, and TailwindCSS.
+            <div className="display-4 hero-name-text">
+              Fardian Zahri Chaniago
+            </div>
+            <p className="lead d-flex">
+              <p className="px-1">i'm a  </p>
+              <Typewriter
+                options={{
+                  strings: ["student", "Front-End Developer"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </p>
             <button className="btn btn-dark btn-lg btn-rounded cta-btn">
               curriculum vitae
