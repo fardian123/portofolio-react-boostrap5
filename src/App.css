@@ -36,13 +36,17 @@
   width: 400px;
   filter: drop-shadow(4px 4px 4px #9999);
 }
+.hero-btn{
+  font-weight: 700;
+  color: rgb(186, 181, 181);
+}
 @media (max-width: 500px) {
   .col-reverse{
     flex-direction: column-reverse !important;
     margin-top: 0px !important;
   }
   .heroImg{
-    width: 300px;
+    width: 280px;
   }
 }
 

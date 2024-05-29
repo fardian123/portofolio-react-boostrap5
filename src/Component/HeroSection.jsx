@@ -23,8 +23,8 @@ const HeroSection = () => {
             <div className="display-4 hero-name-text">
               Fardian Zahri Chaniago
             </div>
-            <p className="lead d-flex">
-              <p className="px-1">i'm a  </p>
+            <div className="lead d-flex fs-3">
+              <p className="px-1">i was  </p>
               <Typewriter
                 options={{
                   strings: ["student", "Front-End Developer"],
@@ -32,8 +32,8 @@ const HeroSection = () => {
                   loop: true,
                 }}
               />
-            </p>
-            <button className="btn btn-dark btn-lg btn-rounded cta-btn">
+            </div>
+            <button className="btn btn-dark btn-lg btn-rounded cta-btn hero-btn">
               curriculum vitae
             </button>
           </div>
