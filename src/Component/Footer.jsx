@@ -33,7 +33,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/fardian-zahri/"
+                  href="https://www.linkedin.com/in/yomama/"
                   className="text-light"
                 >
                   <svg
